@@ -1,0 +1,49 @@
+{
+  "name": "milordblog",
+  "version": "1.0.0",
+  "description": "\"express postgresql blog\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --watch . --exec babel-node -- server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilordVladyslav/express-boilerplate.git"
+  },
+  "keywords": [
+    "express",
+    "express boilerplate",
+    "node.js",
+    "node"
+  ],
+  "author": "MilordVladyslav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MilordVladyslav/milordblog/issues"
+  },
+  "homepage": "https://github.com/MilordVladyslav/milordblog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "cookie-parser": "^1.4.5",
+    "cuid": "^2.1.8",
+    "eslint": "^7.26.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-watch": "^7.4.1",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
